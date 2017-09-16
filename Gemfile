@@ -14,6 +14,12 @@ gem 'rake'
 
 gem 'shotgun', '~>0.9.1'
 
+gem 'httparty'
+
+gem 'google-api-client'
+
+gem 'dotenv'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'

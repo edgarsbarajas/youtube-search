@@ -1,0 +1,8 @@
+<div id="something">
+<% results.each do |vid| %>
+  <div class="results">
+    <h4><%= vid["snippet"]["title"]%></h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= vid["id"]["videoId"] %>" frameborder="0" allowfullscreen></iframe>
+  </div>
+<% end %>
+</div>
